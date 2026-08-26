@@ -9,8 +9,9 @@ html {
   scroll-behavior: smooth;
 }
 
-p {
+p, a {
     background-color: #1d2337;
+    text-decoration: none;
 }
 
 .wrapper {
