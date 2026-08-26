@@ -116,3 +116,7 @@ li {
 .exp {
     text-align: left;
 }
+
+#result {
+    border-radius: 10px;
+}
