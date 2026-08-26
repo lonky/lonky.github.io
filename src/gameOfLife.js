@@ -84,7 +84,7 @@ async def main():
      while True:
         canvas = set_diehard()
 
-        for frame in range(1, 131):
+        for frame in range(1, 141):
             draw_canvas(canvas, frame)
 
             canvas = check_neighbours(canvas)
