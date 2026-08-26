@@ -100,12 +100,14 @@
     <h2 class="code-title">The 'Game of Life' in PyScript</h2>
 
     <div class="wrapper">
+    <p id="loading">Loading PyScript...</p>
     <pre id="result"></pre>
 
     <script type="py">
     import asyncio
     from pyscript import document
 
+    document.querySelector("#loading").style.display = "none"
 
     WIDTH = 16
     HEIGHT = 16
